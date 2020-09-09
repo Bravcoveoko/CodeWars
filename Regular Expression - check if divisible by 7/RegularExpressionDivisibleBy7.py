@@ -1,0 +1,3 @@
+# Write a string representing a regular expression to detect whether a binary number is divisible by 7
+# Draw Deterministic finite automata -> regular expression.
+solution = '0|(1((0(01)*00)|(((101*0)|(0(01)*1))((001*0)|(11(01)*1))*((11(01)*00)|10)))*((11)|(((101*0)|(0(01)*1))((001*0)|(11(01)*1))*01)))(0|1((0(01)*00)|(((101*0)|(0(01)*1))((001*0)|(11(01)*1))*((11(01)*00)|10)))*((11)|(((101*0)|(0(01)*1))((001*0)|(11(01)*1))*01)))*$'
